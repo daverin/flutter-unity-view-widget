@@ -127,7 +127,7 @@ var sharedApplication: UIApplication?
                sharedApplication = UIApplication.shared
            }
 
-            Always keep Flutter window on top
+//             Always keep Flutter window on top
            let flutterUIWindow = sharedApplication?.keyWindow
            flutterUIWindow?.windowLevel = UIWindow.Level(UIWindow.Level.normal.rawValue + 1) // Always keep Flutter window in top
            sharedApplication?.keyWindow?.windowLevel = UIWindow.Level(UIWindow.Level.normal.rawValue + 1)
